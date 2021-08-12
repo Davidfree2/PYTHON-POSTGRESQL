@@ -1,0 +1,12 @@
+Make sure to use these following commands to create your database and tables, Also make sure to the exact names that way the python application works
+---------------------------------------------------------
+1. database creation use:
+CREATE DATABASE financeapp;
+--------------------------------------------------------
+2. table creation
+CREATE TABLE finance (
+item char(255),
+amount numeric,
+date char(255)
+);
+------------------------------------------------------------

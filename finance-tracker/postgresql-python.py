@@ -1,5 +1,5 @@
 import psycopg2
-connection = psycopg2.connect(database='financeapp', user='python', password='python', host='127.0.0.1', port='5432')
+connection = psycopg2.connect(database='your_database', user='user', password='your_password', host='127.0.0.1', port='your_port')
 
 def insert_into_database(one, two, three):
     query = f'''insert into finances (item, amount, date) values ('{one}', {two}, '{three}');'''
